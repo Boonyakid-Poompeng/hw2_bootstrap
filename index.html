@@ -5,17 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าแรก - เว็บไซต์ของฉัน</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index-styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">หน้าแรก</a></li>
-                <li><a href="detail.html">รายละเอียด</a></li>
-                <li><a href="contact.html">ติดต่อ</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">เว็บไซต์ของฉัน</a>
+                <!-- Hamburger Menu Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu Items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="detail.html">รายละเอียด</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">ติดต่อ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -61,6 +80,9 @@
     <footer>
         <p>&copy; ขอขอบคุณที่รับชมเว็บไซต์การท่องเที่ยวของฉัน</p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
