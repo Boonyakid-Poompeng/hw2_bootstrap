@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - เว็บไซต์ของฉัน</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html" style="color: white;">Travel In Chonburi</a>
+                <!-- Hamburger Menu Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                </button>
+                <!-- Menu Items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="color: white;">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="color: white;">รายละเอียด</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html" style="color: white;">ติดต่อ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="text-center">ติดต่อเรา</h2>
+
+        <div class="row">
+            <!-- ข้อมูลติดต่อ -->
+            <div class="col-md-6">
+                <h4>ข้อมูลติดต่อ</h4>
+                <p><strong>อีเมล:</strong> 66160252@go.buu.ac.th</p>
+                <p><strong>โทรศัพท์:</strong> 098-579-7393</p>
+                <p><strong>ที่อยู่:</strong> 21/1 ถนนบางแสน, ชลบุรี, ประเทศไทย</p>
+            </div>
+
+            <!-- ฟอร์มติดต่อ -->
+            <div class="col-md-6">
+                <h4>ฟอร์มติดต่อ</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">ชื่อของคุณ</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">อีเมล</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">ข้อความของคุณ</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark py-4">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h5>ข้อมูลติดต่อ</h5>
+                    <p>Email: 66160252@go.buu.ac.th</p>
+                    <p>Phone: 098-579-7393</p>
+                    <p>Address: 21/1 ถนนบางแสน, ชลบุรี, ประเทศไทย</p>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h5>ติดตามเรา</h5>
+                    <a href="#" class="d-block text-white">Facebook</a>
+                    <a href="#" class="d-block text-white">Twitter</a>
+                    <a href="#" class="d-block text-white">Instagram</a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h5>&copy; 2024 HW2_bootstrap</h5>
+                    <p>เว็บไซต์นี้จัดทำขึ้นเพื่อแสดงตัวอย่างการใช้ Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
