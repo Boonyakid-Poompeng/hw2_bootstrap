@@ -50,27 +50,47 @@
                 <p><strong>ที่อยู่:</strong> 21/1 ถนนบางแสน, ชลบุรี, ประเทศไทย</p>
             </div>
 
-            <!-- ฟอร์มติดต่อ -->
+            <!-- ฟอร์มติดต่อใน Modal -->
             <div class="col-md-6">
                 <h4>ฟอร์มติดต่อ</h4>
-                <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">ชื่อของคุณ</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">อีเมล</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">ข้อความของคุณ</label>
-                        <textarea class="form-control" id="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
-                </form>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+                    เปิดฟอร์มติดต่อ
+                </button>
             </div>
         </div>
     </main>
+
+    <!-- Modal ฟอร์มติดต่อ -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">ฟอร์มติดต่อ</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">ชื่อของคุณ</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">อีเมล</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">ข้อความของคุณ</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+                    <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark py-4">
         <div class="container text-white">
