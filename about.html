@@ -11,18 +11,35 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="nav justify-content-center bg-dark text-white">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link text-white">หน้าแรก</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link text-white">รายละเอียด</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link text-white">ติดต่อ</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html" style="color: white;">Travel In Chonburi</a>
+                <!-- Hamburger Menu Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                </button>
+                <!-- Menu Items and Search Bar -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" style="color: white;">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="color: white;">รายละเอียด</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="color: white;">ติดต่อ</a>
+                        </li>
+                    </ul>
+                    <!-- Search Bar -->
+                    <form class="d-flex ms-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="ค้นหา..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">ค้นหา</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
