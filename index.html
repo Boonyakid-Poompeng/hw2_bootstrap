@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก - เว็บไซต์ของฉัน</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index-styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html" style="color: white;">Travel In Chonburi</a>
+                <!-- Hamburger Menu Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                </button>
+                <!-- Menu Items and Search Bar -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" style="color: white;">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="color: white;">รายละเอียด</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="color: white;">ติดต่อ</a>
+                        </li>
+                    </ul>
+                    <!-- Search Bar -->
+                    <form class="d-flex ms-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="ค้นหา..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">ค้นหา</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- ส่วน Carousel -->
+        <section class="carousel-section">
+            <div id="touristCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/หาดบางแสน.jpg" class="d-block w-100" alt="หาดบางแสน">
+                        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h5 style="color: #FFD700;">หาดบางแสน</h5>
+                            <p style="color: white;">ชายหาดยอดนิยมในจังหวัดชลบุรี</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/เกาะล้าน.jpg" class="d-block w-100" alt="เกาะล้าน">
+                        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h5 style="color: #FFD700;">เกาะล้าน</h5>
+                            <p style="color: white;">เกาะสวยน้ำใสที่อยู่ไม่ไกลจากกรุงเทพฯ</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/เขาสามมุข.jpg" class="d-block w-100" alt="เขาสามมุข">
+                        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h5 style="color: #FFD700;">เขาสามมุข</h5>
+                            <p style="color: white;">จุดชมวิวและสถานที่ศักดิ์สิทธิ์</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ปุ่มควบคุม -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#touristCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#touristCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- ส่วน Card Component -->
+            <section class="cards-section py-5">
+                <div class="container">
+                    <h2 class="mb-4 text-center" style="color: #4CAF50;">ไฮไลท์ของจังหวัดชลบุรี</h2>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!-- Card 1 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/หาดบางแสน.jpg" class="card-img-top" alt="หาดบางแสน">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: #4CAF50;">หาดบางแสน</h5>
+                                    <p class="card-text">ชายหาดที่มีชื่อเสียงที่สุดในชลบุรี เหมาะสำหรับการพักผ่อนและเล่นน้ำทะเล</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/เกาะล้าน.jpg" class="card-img-top" alt="เกาะล้าน">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: #4CAF50;">เกาะล้าน</h5>
+                                    <p class="card-text">เกาะน้ำใสที่เหมาะสำหรับการดำน้ำและพักผ่อนในบรรยากาศเงียบสงบ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/สวนสัตว์เปิดเขาเขียว.jpg" class="card-img-top" alt="สวนสัตว์เปิดเขาเขียว">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: #4CAF50;">สวนสัตว์เปิดเขาเขียว</h5>
+                                    <p class="card-text">สถานที่ท่องเที่ยวสำหรับครอบครัวที่มีสัตว์หลากหลายชนิดให้ชมอย่างใกล้ชิด</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-dark py-4">
+        <div class="container text-white">
+            <!-- ข้อมูลติดต่อ -->
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h5>ข้อมูลติดต่อ</h5>
+                    <p>Email: 66160252@go.buu.ac.th</p>
+                    <p>Phone: 098-579-7393</p>
+                    <p>Address: 21/1 ถนนบางแสน, ชลบุรี, ประเทศไทย</p>
+                </div>
+
+                <!-- การติดตาม -->
+                <div class="col-12 col-md-4">
+                    <h5>ติดตามเรา</h5>
+                    <a href="#" class="d-block text-white">Facebook</a>
+                    <a href="#" class="d-block text-white">Twitter</a>
+                    <a href="#" class="d-block text-white">Instagram</a>
+                </div>
+
+                <!-- ข้อความลิขสิทธิ์ -->
+                <div class="col-12 col-md-4">
+                    <h5>&copy; 2024 HW2_bootstrap</h5>
+                    <p>เว็บไซต์นี้จัดทำขึ้นเพื่อแสดงตัวอย่างการใช้ Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
