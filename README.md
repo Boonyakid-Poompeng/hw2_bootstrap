@@ -73,3 +73,9 @@ Contact
 - git commit -m "เพิ่มไฟล์ screenshot"
 - git add README.md
 - git commit -m "git command used in this hw2"
+
+Merge และ Push
+- git merge feature/homepage
+- git merge feature/about
+- git merge feature/contact
+- git push origin development
