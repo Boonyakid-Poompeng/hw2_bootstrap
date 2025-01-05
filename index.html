@@ -12,32 +12,32 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
             <div class="container">
                 <!-- Logo -->
-                <a class="navbar-brand" href="index.html">เว็บไซต์ของฉัน</a>
+                <a class="navbar-brand" href="index.html" style="color: white;">Travel In Chonburi</a>
                 <!-- Hamburger Menu Button -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
                 </button>
                 <!-- Menu Items and Search Bar -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">หน้าแรก</a>
+                            <a class="nav-link active" href="index.html" style="color: white;">หน้าแรก</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="detail.html">รายละเอียด</a>
+                            <a class="nav-link" href="about.html" style="color: white;">รายละเอียด</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">ติดต่อ</a>
+                            <a class="nav-link" href="contact.html" style="color: white;">ติดต่อ</a>
                         </li>
                     </ul>
                     <!-- Search Bar -->
                     <form class="d-flex ms-3" role="search">
                         <input class="form-control me-2" type="search" placeholder="ค้นหา..." aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">ค้นหา</button>
+                        <button class="btn btn-outline-light" type="submit">ค้นหา</button>
                     </form>
                 </div>
             </div>
@@ -62,23 +62,23 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/หาดบางแสน.jpg" class="d-block w-100" alt="หาดบางแสน">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>หาดบางแสน</h5>
-                            <p>ชายหาดยอดนิยมในจังหวัดชลบุรี</p>
+                        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h5 style="color: #FFD700;">หาดบางแสน</h5>
+                            <p style="color: white;">ชายหาดยอดนิยมในจังหวัดชลบุรี</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/เกาะล้าน.jpg" class="d-block w-100" alt="เกาะล้าน">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>เกาะล้าน</h5>
-                            <p>เกาะสวยน้ำใสที่อยู่ไม่ไกลจากกรุงเทพฯ</p>
+                        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h5 style="color: #FFD700;">เกาะล้าน</h5>
+                            <p style="color: white;">เกาะสวยน้ำใสที่อยู่ไม่ไกลจากกรุงเทพฯ</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/เขาสามมุข.jpg" class="d-block w-100" alt="เขาสามมุข">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>เขาสามมุข</h5>
-                            <p>จุดชมวิวและสถานที่ศักดิ์สิทธิ์</p>
+                        <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <h5 style="color: #FFD700;">เขาสามมุข</h5>
+                            <p style="color: white;">จุดชมวิวและสถานที่ศักดิ์สิทธิ์</p>
                         </div>
                     </div>
                 </div>
@@ -86,28 +86,27 @@
                 <!-- ปุ่มควบคุม -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#touristCarousel"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#touristCarousel"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
             <!-- ส่วน Card Component -->
             <section class="cards-section py-5">
                 <div class="container">
-                    <h2 class="mb-4 text-center">ไฮไลท์ของจังหวัดชลบุรี</h2>
+                    <h2 class="mb-4 text-center" style="color: #4CAF50;">ไฮไลท์ของจังหวัดชลบุรี</h2>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <!-- Card 1 -->
                         <div class="col">
                             <div class="card h-100">
                                 <img src="images/หาดบางแสน.jpg" class="card-img-top" alt="หาดบางแสน">
                                 <div class="card-body">
-                                    <h5 class="card-title">หาดบางแสน</h5>
-                                    <p class="card-text">ชายหาดที่มีชื่อเสียงที่สุดในชลบุรี
-                                        เหมาะสำหรับการพักผ่อนและเล่นน้ำทะเล</p>
+                                    <h5 class="card-title" style="color: #4CAF50;">หาดบางแสน</h5>
+                                    <p class="card-text">ชายหาดที่มีชื่อเสียงที่สุดในชลบุรี เหมาะสำหรับการพักผ่อนและเล่นน้ำทะเล</p>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +115,7 @@
                             <div class="card h-100">
                                 <img src="images/เกาะล้าน.jpg" class="card-img-top" alt="เกาะล้าน">
                                 <div class="card-body">
-                                    <h5 class="card-title">เกาะล้าน</h5>
+                                    <h5 class="card-title" style="color: #4CAF50;">เกาะล้าน</h5>
                                     <p class="card-text">เกาะน้ำใสที่เหมาะสำหรับการดำน้ำและพักผ่อนในบรรยากาศเงียบสงบ</p>
                                 </div>
                             </div>
@@ -124,12 +123,10 @@
                         <!-- Card 3 -->
                         <div class="col">
                             <div class="card h-100">
-                                <img src="images/สวนสัตว์เปิดเขาเขียว.jpg" class="card-img-top"
-                                    alt="สวนสัตว์เปิดเขาเขียว">
+                                <img src="images/สวนสัตว์เปิดเขาเขียว.jpg" class="card-img-top" alt="สวนสัตว์เปิดเขาเขียว">
                                 <div class="card-body">
-                                    <h5 class="card-title">สวนสัตว์เปิดเขาเขียว</h5>
-                                    <p class="card-text">
-                                        สถานที่ท่องเที่ยวสำหรับครอบครัวที่มีสัตว์หลากหลายชนิดให้ชมอย่างใกล้ชิด</p>
+                                    <h5 class="card-title" style="color: #4CAF50;">สวนสัตว์เปิดเขาเขียว</h5>
+                                    <p class="card-text">สถานที่ท่องเที่ยวสำหรับครอบครัวที่มีสัตว์หลากหลายชนิดให้ชมอย่างใกล้ชิด</p>
                                 </div>
                             </div>
                         </div>
@@ -141,9 +138,8 @@
 
     </main>
 
-
-    <footer class="bg-light py-4">
-        <div class="container">
+    <footer class="bg-dark py-4">
+        <div class="container text-white">
             <!-- ข้อมูลติดต่อ -->
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -156,9 +152,9 @@
                 <!-- การติดตาม -->
                 <div class="col-12 col-md-4">
                     <h5>ติดตามเรา</h5>
-                    <a href="https://facebook.com/mywebsite" class="d-block">Facebook</a>
-                    <a href="https://twitter.com/mywebsite" class="d-block">Twitter</a>
-                    <a href="https://instagram.com/mywebsite" class="d-block">Instagram</a>
+                    <a href="https://facebook.com/mywebsite" class="d-block text-white">Facebook</a>
+                    <a href="https://twitter.com/mywebsite" class="d-block text-white">Twitter</a>
+                    <a href="https://instagram.com/mywebsite" class="d-block text-white">Instagram</a>
                 </div>
 
                 <!-- ข้อความลิขสิทธิ์ -->
