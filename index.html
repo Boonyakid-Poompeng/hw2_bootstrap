@@ -17,7 +17,8 @@
                 <!-- Logo -->
                 <a class="navbar-brand" href="index.html">เว็บไซต์ของฉัน</a>
                 <!-- Hamburger Menu Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- Menu Items and Search Bar -->
@@ -42,9 +43,47 @@
             </div>
         </nav>
     </header>
-    
+
 
     <main>
+        <!-- ส่วน Carousel -->
+        <section class="carousel-section">
+            <div id="touristCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/หาดบางแสน.jpg" class="d-block w-100" alt="หาดบางแสน">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>หาดบางแสน</h5>
+                            <p>ชายหาดยอดนิยมในจังหวัดชลบุรี</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/เกาะล้าน.jpg" class="d-block w-100" alt="เกาะล้าน">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>เกาะล้าน</h5>
+                            <p>เกาะสวยน้ำใสที่อยู่ไม่ไกลจากกรุงเทพฯ</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/เขาสามมุข.jpg" class="d-block w-100" alt="เขาสามมุข">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>เขาสามมุข</h5>
+                            <p>จุดชมวิวและสถานที่ศักดิ์สิทธิ์</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ปุ่มควบคุม -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#touristCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#touristCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    
         <!-- ส่วนภาพรวมของจังหวัด -->
         <section class="overview">
             <h1>ยินดีต้อนรับสู่จังหวัดชลบุรี</h1>
@@ -55,7 +94,8 @@
             </p>
             <img src="images/ภาพรวมชลบุรี.jpg" alt="ภาพรวมจังหวัดชลบุรี">
         </section>
-
+    </main>
+    
         <!-- ส่วนไฮไลท์สถานที่ท่องเที่ยว -->
         <section class="highlights">
             <h2>ไฮไลท์สถานที่ท่องเที่ยวในจังหวัดชลบุรี</h2>
